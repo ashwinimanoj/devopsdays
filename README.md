@@ -15,6 +15,8 @@ For a detailed walkthrough, watch the project presentation from [GDG[x] Townhall
 
 Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
 
+Recommended Ruby version: **3.1.2**
+
 To install all development dependencies install [Bundler](http://bundler.io/).
 ```bash
 gem install bundler
