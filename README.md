@@ -17,17 +17,17 @@ Check if you have [all requirements for local environment](http://jekyllrb.com/d
 
 To install all development dependencies install [Bundler](http://bundler.io/).
 ```bash
-    gem install bundler
+gem install bundler
 ```
 
 and run next command from root folder:
 ```bash
-    bundle install
+bundle install
 ```  
 
 To start Jekyll run:
 ```bash
-    jekyll serve -w --baseurl /test
+jekyll serve -w --baseurl /test
 ```
 
 Site will be available at http://127.0.0.1:4000/test/ or http://localhost:4000/test/ (on Windows)
@@ -50,12 +50,12 @@ You can optimize images and minify css and javascript automatically (for now onl
 But for Mac OS users available amazing tool - [imageoptim](https://imageoptim.com/). Thanks [@raphaelsavina](https://github.com/raphaelsavina) for link.
 Optimize all images by running this script from `/automation/images/` folder:
 ```bash
-    all_image_optimization.bat -d -jtran -pout -pquant -optip -gsicle -svgo
+all_image_optimization.bat -d -jtran -pout -pquant -optip -gsicle -svgo
 ```
 
 To minify CSS and JS run `minify_js.bat` (for Windows) and `minify_js.sh` (for Linux and MacOS) from `/automation/minifying/` folder:
 ```bash
-    minify_js.bat
+minify_js.bat
 ```
 
 Learn more about available optimization options from this [documentation](https://github.com/gdg-x/zeppelin/wiki/Resources-optimizations) by the GDG team.
